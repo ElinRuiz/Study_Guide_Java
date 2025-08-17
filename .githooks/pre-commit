@@ -1,0 +1,14 @@
+#!/bin/sh
+echo "Running Checkstyle linter before commit..."
+
+mvn -q checkstyle:check
+STATUS=$?
+
+if [ $STATUS -ne 0 ]; then
+  echo "❌ Checkstyle lint error. Fix before commit."
+  exit 1
+fi
+
+echo "✅ Checkstyle linter ok."
+exit 0
+
