@@ -7,12 +7,12 @@ import org.junit.jupiter.params.provider.ValueSource;
 import static org.assertj.core.api.Assertions.assertThat;
 import static org.assertj.core.api.Assertions.assertThatThrownBy;
 
-public class CalculusTest {
-    private Calculus systemUnderTest;
+public class xCalculusTest {
+    private xCalculus systemUnderTest;
 
     @BeforeEach
     public void setUp() {
-        systemUnderTest = new Calculus();
+        systemUnderTest = new xCalculus();
         System.out.println("Codigo comun: ");
     }
 

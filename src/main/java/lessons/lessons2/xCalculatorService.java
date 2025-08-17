@@ -1,6 +1,6 @@
 package lessons.lessons2;
 
-public class CalculatorService {
+public class xCalculatorService {
 
     public int add(int a, int b) {
         return a + b;
