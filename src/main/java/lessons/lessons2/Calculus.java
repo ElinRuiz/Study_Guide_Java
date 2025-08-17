@@ -1,10 +1,10 @@
 package lessons.lessons2;
 
-public class xCalculus {
+public class Calculus {
 
     public static void main(String[] args) {
 
-        xCalculus instance = new xCalculus();
+        Calculus instance = new Calculus();
 
         instance.printNumbers(2) ;
 

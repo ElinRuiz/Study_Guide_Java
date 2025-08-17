@@ -6,13 +6,13 @@ import org.junit.jupiter.api.Test;
 import static org.assertj.core.api.Assertions.assertThat;
 import static org.assertj.core.api.Assertions.assertThatThrownBy;
 
-public class xCalculatorServiceTest {
+public class CalculatorServiceTest {
 
-    private xCalculatorService systemUnderTest;
+    private CalculatorService systemUnderTest;
 
     @BeforeEach
     public void setUp() {
-        systemUnderTest = new xCalculatorService();
+        systemUnderTest = new CalculatorService();
         System.out.println("Setting up CalculatorService instance...");
     }
 

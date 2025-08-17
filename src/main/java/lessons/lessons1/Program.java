@@ -1,6 +1,6 @@
 package lessons.lessons1;
 
-public class xProgram {
+public class Program {
 
     public static void main(String[] args ){
 
