@@ -8,11 +8,11 @@ import static org.assertj.core.api.Assertions.assertThat;
 import static org.assertj.core.api.Assertions.assertThatThrownBy;
 
 public class CalculusTest {
-    private calculus systemUnderTest;
+    private Calculus systemUnderTest;
 
     @BeforeEach
     public void setUp() {
-        systemUnderTest = new calculus();
+        systemUnderTest = new Calculus();
         System.out.println("Codigo comun: ");
     }
 

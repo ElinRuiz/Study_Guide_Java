@@ -8,11 +8,11 @@ import static org.assertj.core.api.Assertions.assertThatThrownBy;
 
 public class CalculatorServiceTest {
 
-    private calculatorService systemUnderTest;
+    private CalculatorService systemUnderTest;
 
     @BeforeEach
     public void setUp() {
-        systemUnderTest = new calculatorService();
+        systemUnderTest = new CalculatorService();
         System.out.println("Setting up CalculatorService instance...");
     }
 
