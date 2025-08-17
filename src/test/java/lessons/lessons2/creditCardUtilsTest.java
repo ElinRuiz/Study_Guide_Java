@@ -6,13 +6,13 @@ import org.junit.jupiter.api.Test;
 import static org.assertj.core.api.Assertions.assertThat;
 import static org.assertj.core.api.Assertions.assertThatThrownBy;
 
-public class creditCardUtilsTest {
+public class CreditCardUtilsTest {
 
-    private creditCardUtils systemUnderTest;
+    private CreditCardUtils systemUnderTest;
 
     @BeforeEach
     public void setUp() {
-        systemUnderTest = new creditCardUtils();
+        systemUnderTest = new CreditCardUtils();
         System.out.println("Setting up CreditCardUtils instance...");
     }
 

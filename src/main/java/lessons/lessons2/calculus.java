@@ -1,10 +1,10 @@
 package lessons.lessons2;
 
-public class calculus {
+public class Calculus {
 
     public static void main(String[] args) {
 
-        calculus instance = new calculus();
+        Calculus instance = new Calculus();
 
         instance.printNumbers(2) ;
 
