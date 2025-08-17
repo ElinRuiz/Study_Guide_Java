@@ -1,6 +1,6 @@
 package lessons.lessons2;
 
-public class creditCardUtils {
+public class CreditCardUtils {
 
     public boolean isValid(String cardNumber) {
         if (cardNumber == null) {

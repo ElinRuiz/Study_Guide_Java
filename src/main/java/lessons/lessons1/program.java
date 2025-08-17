@@ -1,6 +1,6 @@
 package lessons.lessons1;
 
-public class program {
+public class Program {
 
     public static void main(String[] args ){
 
